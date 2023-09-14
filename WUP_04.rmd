@@ -70,6 +70,8 @@ model1 <- aov(WORDSUM~RACE,data=mydata)
 summary.aov(model1)
 ```
 
+We got a significant result where we would need to run a follow up multiple comparison test due to a low p-value (.0182 < .05). 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
